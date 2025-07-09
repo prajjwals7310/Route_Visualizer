@@ -1,5 +1,0 @@
-Direction: Producer
-Component: https
-
-| Attribute | Default | Specification |
-|-----------|---------|----------------|
