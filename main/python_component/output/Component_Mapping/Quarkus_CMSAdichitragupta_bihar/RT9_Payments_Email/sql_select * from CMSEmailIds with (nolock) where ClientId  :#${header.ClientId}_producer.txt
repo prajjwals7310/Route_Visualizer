@@ -1,0 +1,54 @@
+Direction: Producer
+Component: sql
+
+| Attribute | Default | Specification |
+|-----------|---------|----------------|
+| dataSource |  |  |
+| bridgeErrorHandler | false |  |
+| lazyStartProducer | false |  |
+| basicPropertyBinding | false |  |
+| usePlaceholder | true |  |
+| query |  |  |
+| allowNamedParameters | true |  |
+| dataSourceRef |  |  |
+| outputClass |  |  |
+| outputHeader |  |  |
+| outputType | SelectList |  |
+| separator | , |  |
+| breakBatchOnConsumeFail | false |  |
+| expectedUpdateCount | -1 |  |
+| maxMessagesPerPoll |  |  |
+| onConsume |  |  |
+| onConsumeBatchComplete |  |  |
+| onConsumeFailed |  |  |
+| routeEmptyResultSet | false |  |
+| sendEmptyMessageWhenIdle | false |  |
+| transacted | false |  |
+| useIterator | true |  |
+| exceptionHandler |  |  |
+| exchangePattern |  |  |
+| pollStrategy |  |  |
+| processingStrategy |  |  |
+| batch | false |  |
+| noop | false |  |
+| useMessageBodyForSql | false |  |
+| alwaysPopulateStatement | false |  |
+| parametersCount |  |  |
+| placeholder | # |  |
+| prepareStatementStrategy |  |  |
+| synchronous | false |  |
+| templateOptions |  |  |
+| backoffErrorThreshold |  |  |
+| backoffIdleThreshold |  |  |
+| backoffMultiplier |  |  |
+| delay | 500 |  |
+| greedy | false |  |
+| initialDelay | 1000 |  |
+| repeatCount | 0 |  |
+| runLoggingLevel | TRACE |  |
+| scheduledExecutorService |  |  |
+| scheduler | none |  |
+| schedulerProperties |  |  |
+| startScheduler | true |  |
+| timeUnit | MILLISECONDS |  |
+| useFixedDelay | true |  |

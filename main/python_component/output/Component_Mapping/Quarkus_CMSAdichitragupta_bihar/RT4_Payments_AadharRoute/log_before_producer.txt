@@ -1,0 +1,33 @@
+Direction: Producer
+Component: log
+
+| Attribute | Default | Specification |
+|-----------|---------|----------------|
+| showHeaders | false | true |
+| lazyStartProducer | false |  |
+| basicPropertyBinding | false |  |
+| exchangeFormatter |  |  |
+| loggerName |  |  |
+| groupActiveOnly | true |  |
+| groupDelay |  |  |
+| groupInterval |  |  |
+| groupSize |  |  |
+| level | INFO |  |
+| logMask |  |  |
+| marker |  |  |
+| synchronous | false |  |
+| maxChars | 10000 |  |
+| multiline | false |  |
+| showAll | false |  |
+| showBody | true |  |
+| showBodyType | true |  |
+| showCaughtException | false |  |
+| showException | false |  |
+| showExchangeId | false |  |
+| showExchangePattern | true |  |
+| showFiles | false |  |
+| showFuture | false |  |
+| showProperties | false |  |
+| showStackTrace | false |  |
+| showStreams | false |  |
+| skipBodyLineSeparator | true |  |

@@ -1,0 +1,66 @@
+Direction: Producer
+Component: http
+
+| Attribute | Default | Specification |
+|-----------|---------|----------------|
+| throwExceptionOnFailure | true | false |
+| cookieStore |  |  |
+| lazyStartProducer | false |  |
+| allowJavaSerializedObject | false |  |
+| basicPropertyBinding | false |  |
+| clientConnectionManager |  |  |
+| connectionsPerRoute | 20 |  |
+| connectionTimeToLive |  |  |
+| httpBinding |  |  |
+| httpClientConfigurer |  |  |
+| httpConfiguration |  |  |
+| httpContext |  |  |
+| maxTotalConnections | 200 |  |
+| headerFilterStrategy |  |  |
+| proxyAuthDomain |  |  |
+| proxyAuthHost |  |  |
+| proxyAuthMethod |  |  |
+| proxyAuthNtHost |  |  |
+| proxyAuthPassword |  |  |
+| proxyAuthPort |  |  |
+| proxyAuthUsername |  |  |
+| sslContextParameters |  |  |
+| useGlobalSslContextParameters | false |  |
+| x509HostnameVerifier |  |  |
+| connectionRequestTimeout | -1 |  |
+| connectTimeout | -1 |  |
+| socketTimeout | -1 |  |
+| httpUri |  |  |
+| disableStreamCache | false |  |
+| bridgeEndpoint | false |  |
+| chunked | true |  |
+| clearExpiredCookies | true |  |
+| connectionClose | false |  |
+| copyHeaders | true |  |
+| customHostHeader |  |  |
+| httpMethod |  |  |
+| ignoreResponseBody | false |  |
+| preserveHostHeader | false |  |
+| transferException | false |  |
+| cookieHandler |  |  |
+| deleteWithBody | false |  |
+| getWithBody | false |  |
+| okStatusCodeRange | 200-299 |  |
+| clientBuilder |  |  |
+| httpClient |  |  |
+| httpClientOptions |  |  |
+| mapHttpMessageBody | true |  |
+| mapHttpMessageFormUrlEncoded{zwsp}Body | true |  |
+| mapHttpMessageHeaders | true |  |
+| synchronous | false |  |
+| useSystemProperties | false |  |
+| proxyAuthScheme |  |  |
+| proxyHost |  |  |
+| proxyPort |  |  |
+| authDomain |  |  |
+| authenticationPreemptive | false |  |
+| authHost |  |  |
+| authMethod |  |  |
+| authMethodPriority |  |  |
+| authPassword |  |  |
+| authUsername |  |  |
